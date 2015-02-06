@@ -1,0 +1,91 @@
+body {
+    background-image: url("citybkg.jpg");
+    background-position: 83%;
+  }
+
+.row {
+  margin-left: 30%;
+  margin-top: 10%;
+}
+
+.signup-panel{
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-top: 30px;
+  i{
+    font-size: 30px;
+    line-height: 50px;
+    color: #999;
+  }
+
+  .welcome {
+    color: #FFFFFF;
+    font-style: normal;
+  }
+
+  .prefix {
+    border-radius: 10px;
+  }
+
+  form{
+    input, span{
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  }
+  .welcome{
+    font-size: 26px;
+    text-align: center;
+    margin-left: 0;
+  }
+  p{
+    font-size: 13px;
+    font-weight: 200;
+    margin-left: 25%;
+  }
+  .button{
+    margin-left: 35%;
+    border-radius: 10px;
+  }
+  h5 {
+    text-align: center;
+    color: white;
+    font-style: normal;
+    font-weight: lighter;
+    display: list-item;
+  }
+
+  .small-2 {
+    display:none;
+  }
+
+  .small-10 {
+    margin-right: 5%;
+  }
+
+  .typed-cursor{
+      opacity: 1;
+      -webkit-animation: blink 0.7s infinite;
+      -moz-animation: blink 0.7s infinite;
+      animation: blink 0.7s infinite;
+  }
+  @keyframes blink{
+      0% { opacity:1; }
+      50% { opacity:0; }
+      100% { opacity:1; }
+  }
+  @-webkit-keyframes blink{
+      0% { opacity:1; }
+      50% { opacity:0; }
+      100% { opacity:1; }
+  }
+  @-moz-keyframes blink{
+      0% { opacity:1; }
+      50% { opacity:0; }
+      100% { opacity:1; }
+  }
+
+}
