@@ -69,7 +69,8 @@ body {
     text-align: center;
     color: white;
     font-style: normal;
-    font-weight: lighter; }
+    font-weight: lighter;
+    display: list-item; }
   .signup-panel .small-2 {
     display: none; }
   .signup-panel .small-10 {
