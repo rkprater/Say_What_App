@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="utf-8">
+  <title>Say What?</title>
+
+  <link rel="stylesheet" href="bower_components/foundation/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/foundation/css/foundation.css">
+  <link href="https://fontastic.s3.amazonaws.com/4jnJmN6JSySMKE659aoMQT/icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="index2.css">
+  <script src="bower_components/foundation/js/vendor/modernizr.js"></script>
+  <script type="html/template" id="Tmpl">
+  <article data-taskid="<%= _id %>">
+  <p><%= user %></p>
+  <h3><%= message %></h3>
+  <button class="delete-message btn btn-primary btn-xs">Delete</button>
+  </article>
+ </script>
+</head>
+  <body>
+    <!-- start nagivation -->
+    <div class="icon-bar five-up">
+    <a class="item">
+      <i class="icon-home"></i>
+    </a>
+    <a class="item">
+      <i class="icon-mail"></i>
+    </a>
+    <a class="item">
+      <i class="icon-social-facebook"></i>
+    </a>
+    <a class="item">
+      <i class="icon-social-twitter"></i>
+    </a>
+    <a class="item">
+      <i class="icon-magnifying-glass"></i>
+    </a>
+  </div>
+  <!--end navigation -->
+
+  <!-- body content here -->
+  <div class="row">
+    <section class="col-md-4 col-xs-4 col-md-offset-1 col-xs-offset-1">
+      <article>
+        <h3>FAKE HARD CODED</h3>
+        <button class="deleteTask">Delete</button>
+      </article>
+    </section>
+  </div>
+  <div class="col-md-4 col-xs-4 col-md-offset-3 col-xs-offset-3 custom-input-field"></div>
+  <form class="createMessage" action="">
+    <div class="form-group col-md-4 col-xs-4 custom-input">
+      <input type="text" class="form-control name-input input-lg" name="userName" placeholder="Type your username here" required>
+      <input type="text" class="form-control message-input input-lg" name="newMessage" placeholder="Type your message here">
+      <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+    </div>
+  </form>
+</div>
+
+  <!-- end body content -->
+
+  <script src="bower_components/foundation/js/vendor/jquery.js"></script>
+  <script src="bower_components/foundation/js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+  <script src="bower_components/typed.js/js/typed.js"></script>
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/underscore/underscore.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="mainpage.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
