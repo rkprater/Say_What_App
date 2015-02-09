@@ -15,6 +15,7 @@ article {
 section {
  height: 600px;
  overflow-y: scroll;
+ text-align: center;
 }
 
 .show {
