@@ -1,56 +1,82 @@
-/* CSS Document */
 body {
-    font:12px arial;
-    color: #222;
-    text-align:center;
-    padding:35px; }
+  background-image: url("citybkg.jpg");
+  background-position: 83%; }
 
-form, p, span {
-    margin:0;
-    padding:0; }
+.row {
+  margin-left: 30%;
+  margin-top: 10%; }
 
-input { font:12px arial; }
+.signup-panel {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-top: 30px;
+  @keyframes blink {
+    0% {
+      opacity: 1; }
 
-a {
-    color:#0000FF;
-    text-decoration:none; }
+    50% {
+      opacity: 0; }
 
-    a:hover { text-decoration:underline; }
+    100% {
+      opacity: 1; } }
 
-#wrapper, #loginform {
-    margin:0 auto;
-    padding-bottom:25px;
-    background:#EBF4FB;
-    width:504px;
-    border:1px solid #ACD8F0; }
+  @-webkit-keyframes blink {
+    0% {
+      opacity: 1; }
 
-#loginform { padding-top:18px; }
+    50% {
+      opacity: 0; }
 
-    #loginform p { margin: 5px; }
+    100% {
+      opacity: 1; } }
 
-#chatbox {
-    text-align:left;
-    margin:0 auto;
-    margin-bottom:25px;
-    padding:10px;
-    background:#fff;
-    height:270px;
-    width:430px;
-    border:1px solid #ACD8F0;
-    overflow:auto; }
+  @-moz-keyframes blink {
+    0% {
+      opacity: 1; }
 
-#usermsg {
-    width:395px;
-    border:1px solid #ACD8F0; }
+    50% {
+      opacity: 0; }
 
-#submit { width: 60px; }
-
-.error { color: #ff0000; }
-
-#menu { padding:12.5px 25px 12.5px 25px; }
-
-.welcome { float:left; }
-
-.logout { float:right; }
-
-.msgln { margin:0 0 2px 0; }
+    100% {
+      opacity: 1; } }
+ }
+  .signup-panel i {
+    font-size: 30px;
+    line-height: 50px;
+    color: #999; }
+  .signup-panel .welcome {
+    color: #FFFFFF;
+    font-style: normal; }
+  .signup-panel .prefix {
+    border-radius: 10px; }
+  .signup-panel form input, .signup-panel form span {
+    height: 50px;
+    border-radius: 10px;
+    text-align: center; }
+  .signup-panel .welcome {
+    font-size: 26px;
+    text-align: center;
+    margin-left: 0; }
+  .signup-panel p {
+    font-size: 13px;
+    font-weight: 200;
+    margin-left: 25%; }
+  .signup-panel .button {
+    margin-left: 35%;
+    border-radius: 10px; }
+  .signup-panel h5 {
+    text-align: center;
+    color: white;
+    font-style: normal;
+    font-weight: lighter;
+    display: list-item; }
+  .signup-panel .small-2 {
+    display: none; }
+  .signup-panel .small-10 {
+    margin-right: 5%; }
+  .signup-panel .typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite; }
